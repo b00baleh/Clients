@@ -20,6 +20,7 @@ namespace Clients
             log.Info("Application started");
             Application.Run(new Form1());
             log.Info("Application closed");
+            //test
         }
     }
 }
