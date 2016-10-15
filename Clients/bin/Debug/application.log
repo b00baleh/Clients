@@ -1,0 +1,5 @@
+2016-10-15 14:44:36,087 INFO Clients.Program - Application started
+2016-10-15 14:44:42,574 INFO Clients.ClientsUpdate - Add Client. Name: x; Email: y
+2016-10-15 14:44:46,751 INFO Clients.ClientsUpdate - Update Client. Name x -> z; Email: y -> t
+2016-10-15 14:44:47,577 INFO Clients.ClientsUpdate - Delete Client. Name: z; Email: t
+2016-10-15 14:44:48,499 INFO Clients.Program - Application closed

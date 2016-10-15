@@ -1,0 +1,18 @@
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\Clients.exe.config
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\Clients.exe
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\Clients.pdb
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\EntityFramework.dll
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\EntityFramework.xml
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\obj\Debug\Clients.csprojResolveAssemblyReference.cache
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\obj\Debug\Clients.Form1.resources
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\obj\Debug\Clients.Properties.Resources.resources
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\obj\Debug\Clients.csproj.GenerateResource.Cache
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\obj\Debug\Clients.exe
+c:\users\b00baleh.boobaleh-pc\documents\visual studio 2015\Projects\Clients\Clients\obj\Debug\Clients.pdb
+C:\Users\b00baleh.BOOBALEH-PC\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\log4net.dll
+C:\Users\b00baleh.BOOBALEH-PC\documents\visual studio 2015\Projects\Clients\Clients\bin\Debug\log4net.xml
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\Clients.exe.config
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.exe
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.pdb
