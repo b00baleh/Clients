@@ -16,3 +16,6 @@ C:\Users\b00baleh.BOOBALEH-PC\documents\visual studio 2015\Projects\Clients\Clie
 C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\Clients.exe.config
 C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.exe
 C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.pdb
+C:\Users\abaku\Source\Repos\Clients\Clients\bin\Debug\Clients.exe.config
+C:\Users\abaku\Source\Repos\Clients\Clients\obj\Debug\Clients.exe
+C:\Users\abaku\Source\Repos\Clients\Clients\obj\Debug\Clients.pdb

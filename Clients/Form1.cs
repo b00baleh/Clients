@@ -11,6 +11,7 @@ using System.Windows.Forms;
 
 namespace Clients
 {
+    //todo переделай доступ к данным через Code First, сейчас за тебя дизайнер код сгенерил
     public partial class Form1 : Form
     {
         public Form1()
@@ -39,9 +40,12 @@ namespace Clients
             dataGridView1.DataSource = ClientsGet.Get();
         }
     }
-
+    //todo SRP не стоит понимать буквально, так можно дойти до того на каждый метод будешь создавать новый класс
+    //в данном случае компромиссом будет создание класса ClientRepository с методами создания,удаления и обновления клиента.   
+    //и класс этот не должен быть вложенным в класс формы
     public static class ClientsGet
     {
+        //todo почему object?
         public static object Get()
         {
             using (var context = new MyBaseEntities())
@@ -84,6 +88,8 @@ log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().Dec
         }
         public static void Delete(int id)
         {
+            //todo нафига эти переменные
+            //todo локальный переменные именуются с маленькой буквы, с большой именуются свойства и методы.
             string Name, Email;
             using (var context = new MyBaseEntities())
             {
