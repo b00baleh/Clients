@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clients.DataBase
+namespace Clients
 {
     public class Client
     {

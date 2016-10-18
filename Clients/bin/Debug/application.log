@@ -23,3 +23,16 @@
 2016-10-18 22:05:12,838 INFO Clients.Program - Application closed
 2016-10-18 22:07:58,694 INFO Clients.Program - Application started
 2016-10-18 22:08:34,113 INFO Clients.ClientRepository - Update Client. name 1 -> 123; email: 2 -> 123
+2016-10-18 22:12:04,257 INFO Clients.Program - Application started
+2016-10-18 22:15:24,383 INFO Clients.Program - Application started
+2016-10-18 22:16:14,673 INFO Clients.ClientRepository - Add Client. name: 123; email: 123
+2016-10-18 22:19:57,563 INFO Clients.Program - Application started
+2016-10-18 22:20:03,079 INFO Clients.Program - Application closed
+2016-10-18 22:24:24,201 INFO Clients.Program - Application started
+2016-10-18 22:24:30,029 INFO Clients.Program - Application closed
+2016-10-18 22:24:40,389 INFO Clients.Program - Application started
+2016-10-18 22:24:42,902 INFO Clients.Program - Application closed
+2016-10-18 22:30:30,924 INFO Clients.Program - Application started
+2016-10-18 22:30:34,760 INFO Clients.ClientRepository - Add Client. name: 123; email: 321
+2016-10-18 22:30:48,613 INFO Clients.ClientRepository - Update Client. name 123 -> qwe; email: 321 -> ewq
+2016-10-18 22:30:50,260 INFO Clients.Program - Application closed

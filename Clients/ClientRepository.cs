@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using log4net;
-using static Clients.DataBase.DbSets;
+
 
 namespace Clients
 {
@@ -16,7 +16,7 @@ namespace Clients
 
         public static void AddClient(string name, string email)
         {
-            var c = new DataBase.Client {Name = name, Email = email};
+            var c = new Client {Name = name, Email = email};
             using (var context = new MyBase())
             {
                 context.Client.Add(c);

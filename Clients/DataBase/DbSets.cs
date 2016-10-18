@@ -5,14 +5,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Clients.DataBase
+namespace Clients
 {
-    class DbSets
-    {
         public class MyBase : DbContext
         {
+            public MyBase() : base("MyBase")
+            {
+                
+            }
             public DbSet<Client> Client { get; set; }
             public object Clients { get; set; }
         }
-    }
+    
 }
