@@ -36,3 +36,6 @@
 2016-10-18 22:30:34,760 INFO Clients.ClientRepository - Add Client. name: 123; email: 321
 2016-10-18 22:30:48,613 INFO Clients.ClientRepository - Update Client. name 123 -> qwe; email: 321 -> ewq
 2016-10-18 22:30:50,260 INFO Clients.Program - Application closed
+2016-10-18 22:32:12,872 INFO Clients.Program - Application started
+2016-10-18 22:32:17,577 INFO Clients.ClientRepository - Add Client. name: rewr; email: rewr
+2016-10-18 22:32:19,105 INFO Clients.Program - Application closed
