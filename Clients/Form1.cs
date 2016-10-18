@@ -17,90 +17,28 @@ namespace Clients
         public Form1()
         {
             InitializeComponent();
-            dataGridView1.DataSource = ClientsGet.Get();
+            dataGridView1.DataSource = ClientRepository.GetClient();
             
         }
 
         private void Add_Click(object sender, EventArgs e)
         {
-            ClientsUpdate.Add(textBox1.Text, textBox2.Text);
-            dataGridView1.DataSource = ClientsGet.Get();
+            ClientRepository.AddClient(textBox1.Text, textBox2.Text);
+            dataGridView1.DataSource = ClientRepository.GetClient();
             textBox1.Text = "";
             textBox2.Text = "";
         }
         private void Edit_Click(object sender, EventArgs e)
         {
 
-            ClientsUpdate.Update((int)dataGridView1.SelectedRows[0].Cells[0].Value,textBox1.Text, textBox2.Text);
-            dataGridView1.DataSource = ClientsGet.Get();
+            ClientRepository.UpdateClient((int)dataGridView1.SelectedRows[0].Cells[0].Value,textBox1.Text, textBox2.Text);
+            dataGridView1.DataSource = ClientRepository.GetClient();
         }
         private void Delete_Click(object sender, EventArgs e)
         {
-            ClientsUpdate.Delete((int)dataGridView1.SelectedRows[0].Cells[0].Value);
-            dataGridView1.DataSource = ClientsGet.Get();
+            ClientRepository.DeleteClient((int)dataGridView1.SelectedRows[0].Cells[0].Value);
+            dataGridView1.DataSource = ClientRepository.GetClient();
         }
     }
-    //todo SRP не стоит понимать буквально, так можно дойти до того на каждый метод будешь создавать новый класс
-    //в данном случае компромиссом будет создание класса ClientRepository с методами создания,удаления и обновления клиента.   
-    //и класс этот не должен быть вложенным в класс формы
-    public static class ClientsGet
-    {
-        //todo почему object?
-        public static object Get()
-        {
-            using (var context = new MyBaseEntities())
-            {
-                var data = context.ClientsSet.Select(x => new { Id = x.Id, Name = x.Name, Email = x.Email });
-                return data.ToList();
-            }
-        }
-
-    }
-    public static class ClientsUpdate
-    {
-        private static readonly log4net.ILog log =
-log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
-        public static void Add(string Name, string Email)
-        {
-            var c = new Clients { Name = Name, Email = Email };
-            using (var context = new MyBaseEntities())
-            {
-                context.ClientsSet.Add(c);
-                context.SaveChanges();
-            }
-            string message = "Add Client. Name: "+ Name+ "; Email: " + Email;
-            log.Info(message);
-        }
-        public static void Update(int id, string Name, string Email)
-        {
-            string oldName, oldEmail;
-            using (var context = new MyBaseEntities())
-            {
-                var c = context.ClientsSet.SingleOrDefault(x => x.Id == id);
-                oldName = c.Name;
-                oldEmail = c.Email;
-                c.Name = Name;
-                c.Email = Email;
-                context.SaveChanges();
-            }
-            string message = "Update Client. Name " + oldName + " -> " + Name + "; Email: " + oldEmail + " -> " + Email;
-            log.Info(message);
-        }
-        public static void Delete(int id)
-        {
-            //todo нафига эти переменные
-            //todo локальный переменные именуются с маленькой буквы, с большой именуются свойства и методы.
-            string Name, Email;
-            using (var context = new MyBaseEntities())
-            {
-                var c = context.ClientsSet.SingleOrDefault(x => x.Id == id);
-                Name = c.Name;
-                Email = c.Email;
-                context.ClientsSet.Remove(c);
-                context.SaveChanges();
-            }
-            string message = "Delete Client. Name: " + Name + "; Email: " + Email;
-            log.Info(message);
-        }
-    }
+  
 }

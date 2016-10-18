@@ -19,3 +19,15 @@ C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients
 C:\Users\abaku\Source\Repos\Clients\Clients\bin\Debug\Clients.exe.config
 C:\Users\abaku\Source\Repos\Clients\Clients\obj\Debug\Clients.exe
 C:\Users\abaku\Source\Repos\Clients\Clients\obj\Debug\Clients.pdb
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\Clients.exe
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\Clients.pdb
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\EntityFramework.dll
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\log4net.dll
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\EntityFramework.xml
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\bin\Debug\log4net.xml
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.csprojResolveAssemblyReference.cache
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.Form1.resources
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.Properties.Resources.resources
+C:\Users\b00baleh.BOOBALEH-PC\Documents\GitHub\Clients\Clients\obj\Debug\Clients.csproj.GenerateResource.Cache

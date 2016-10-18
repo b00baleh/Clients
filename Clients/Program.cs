@@ -8,7 +8,7 @@ namespace Clients
 {
     static class Program
     {
-        private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
+        private static readonly log4net.ILog Log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -17,9 +17,9 @@ namespace Clients
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            log.Info("Application started");
+            Log.Info("Application started");
             Application.Run(new Form1());
-            log.Info("Application closed");
+            Log.Info("Application closed");
             //test
         }
     }

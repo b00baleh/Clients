@@ -3,3 +3,23 @@
 2016-10-15 14:44:46,751 INFO Clients.ClientsUpdate - Update Client. Name x -> z; Email: y -> t
 2016-10-15 14:44:47,577 INFO Clients.ClientsUpdate - Delete Client. Name: z; Email: t
 2016-10-15 14:44:48,499 INFO Clients.Program - Application closed
+2016-10-18 21:56:59,427 INFO Clients.Program - Application started
+2016-10-18 21:59:53,330 INFO Clients.Program - Application started
+2016-10-18 22:00:12,328 INFO Clients.Program - Application started
+2016-10-18 22:00:19,316 INFO Clients.ClientRepository - Add Client. name: 2; email: 3
+2016-10-18 22:00:20,995 INFO Clients.ClientRepository - Update Client. name 2 -> ; email: 3 -> 
+2016-10-18 22:00:24,112 INFO Clients.ClientRepository - Update Client. name  -> 2134; email:  -> dsfdsf
+2016-10-18 22:00:24,967 INFO Clients.ClientRepository - Delete Client. name: 2134; email: dsfdsf
+2016-10-18 22:00:25,848 INFO Clients.Program - Application closed
+2016-10-18 22:03:20,154 INFO Clients.Program - Application started
+2016-10-18 22:03:23,782 INFO Clients.ClientRepository - Add Client. name: a; email: s
+2016-10-18 22:04:32,305 INFO Clients.Program - Application started
+2016-10-18 22:04:37,818 INFO Clients.ClientRepository - Add Client. name: d; email: d
+2016-10-18 22:04:52,744 INFO Clients.Program - Application closed
+2016-10-18 22:04:57,564 INFO Clients.Program - Application started
+2016-10-18 22:05:08,846 INFO Clients.ClientRepository - Delete Client. name: a; email: s
+2016-10-18 22:05:09,339 INFO Clients.ClientRepository - Delete Client. name: d; email: d
+2016-10-18 22:05:11,968 INFO Clients.ClientRepository - Add Client. name: 1; email: 2
+2016-10-18 22:05:12,838 INFO Clients.Program - Application closed
+2016-10-18 22:07:58,694 INFO Clients.Program - Application started
+2016-10-18 22:08:34,113 INFO Clients.ClientRepository - Update Client. name 1 -> 123; email: 2 -> 123
